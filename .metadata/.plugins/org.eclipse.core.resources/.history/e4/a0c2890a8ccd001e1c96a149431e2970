@@ -1,0 +1,15 @@
+package com.optional;
+
+import java.util.Optional;
+
+public class OptionalDemo {
+
+	public static void main(String[] args) {
+		
+		//creating empty objects
+		Optional<Object> empObject=Optional.empty();
+		System.out.println(empObject);
+		
+	}
+
+}

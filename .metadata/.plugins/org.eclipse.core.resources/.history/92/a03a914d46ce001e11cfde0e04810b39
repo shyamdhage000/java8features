@@ -1,0 +1,11 @@
+package com.functionalInterface;
+
+import java.util.function.BiPredicate;
+
+public class BiPredicateDemo {
+	public static void main(String[] args) {
+		BiPredicate<String, String>biPredicate=new BiPredicate<String, String>() {
+		}
+		
+	}
+}

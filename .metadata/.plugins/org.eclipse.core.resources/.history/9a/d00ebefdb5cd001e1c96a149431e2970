@@ -1,0 +1,12 @@
+package com.stream.api;
+
+import java.util.stream.Stream;
+
+public class CreateStream {
+
+	public static void main(String[] args) {
+		Stream<String>stream=Stream.of("a","b","v");
+		stream.forEach(c->System.out.println(c));
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.functionalInterface;
+
+import java.util.function.Consumer;
+import java.util.function.Function;
+
+//class FunctionImpl implements Function<String, Integer>{
+//
+//	@Override
+//	public Integer apply(String t) {
+//		return t.length();
+//	}
+//	
+//}
+
+public class FunctionDemo {
+
+	public static void main(String[] args) {
+//		Function function=new FunctionImpl();
+//		System.out.println(function.apply("Shyam"));
+		
+		
+		//Function Interface
+		Function<String, Integer> fun=(String s)->{
+			 return s.length();
+		};
+		System.out.println(fun.apply("Shyam"));
+		
+		//Consumer Intferace It has accept method  it does not return any value
+		
+		Consumer<String>con=(String s)->{
+			System.out.println(s.length());
+		};
+		con.accept("Hello World");
+
+	}
+
+}

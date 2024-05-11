@@ -1,0 +1,21 @@
+package com.functionalInterface;
+
+import java.util.function.Function;
+
+class FunctionImpl implements Function<String, Integer>{
+
+	@Override
+	public Integer apply(String t) {
+		
+	}
+	
+}
+
+public class FunctionDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

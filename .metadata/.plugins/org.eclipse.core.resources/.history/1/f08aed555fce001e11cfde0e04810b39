@@ -1,0 +1,19 @@
+package com.method.reference;
+
+import java.util.function.Function;
+
+public class MethodReference {
+
+	public static void main(String[] args) {
+		
+		//1.Method reference to Static method
+		//Using lambda expression
+		Function<Integer, Double>fun=(input)->Math.sqrt(input);
+		System.out.println(fun.apply(16));
+
+		//Usign method refereence
+		Function<Integer,Double>fun1=Math::sqrt;
+		System.out.println(fun1.apply(25));
+	}
+
+}

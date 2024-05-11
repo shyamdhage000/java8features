@@ -1,0 +1,26 @@
+package com.lambda;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+
+interface Shape{
+	void draw();
+	
+	default void display() {
+		System.out.println("Default method of I/f");
+	}
+}
+
+public class Learning {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

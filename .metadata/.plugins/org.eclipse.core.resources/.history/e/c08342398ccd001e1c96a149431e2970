@@ -1,0 +1,21 @@
+package com.optional;
+
+import java.util.Optional;
+
+public class OptionalDemo {
+
+	public static void main(String[] args) {
+		
+		//creating optional objects by 3 different ways Of(),empty(),ofNullable()
+		
+		String email="shyam@gmail.com";
+		
+		Optional<Object> empObject=Optional.empty();
+		System.out.println(empObject);
+		
+		Optional<Object>emailObj=Optional.of(email);
+		System.out.println(emailObj);
+		
+	}
+
+}

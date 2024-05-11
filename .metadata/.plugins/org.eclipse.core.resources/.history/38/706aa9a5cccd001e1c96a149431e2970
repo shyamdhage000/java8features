@@ -1,0 +1,11 @@
+package com.stream.api;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		
+		List<String>names=new ArrayList<String>();
+		
+	}
+
+}

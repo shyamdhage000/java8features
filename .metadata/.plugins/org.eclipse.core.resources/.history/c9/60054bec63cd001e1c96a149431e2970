@@ -1,0 +1,10 @@
+package com.lambda;
+@FunctionalInterface
+public interface MyFunctionalInterface {
+	void print(String str);
+	
+	default void display() {
+		System.out.println("default display method");
+	}
+
+}

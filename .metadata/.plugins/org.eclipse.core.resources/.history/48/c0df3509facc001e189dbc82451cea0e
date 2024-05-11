@@ -1,0 +1,13 @@
+package com.lambda;
+
+interface Addable{
+	int addable(int a, int b);
+}
+public class LambdaParameters {
+
+	public static void main(String[] args) {
+	
+		
+	}
+
+}

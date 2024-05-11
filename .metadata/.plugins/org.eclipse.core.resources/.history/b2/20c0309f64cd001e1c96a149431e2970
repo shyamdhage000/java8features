@@ -1,0 +1,9 @@
+package com.functionalInterface;
+
+interface Shape{
+	void draw();
+}
+
+public class LambdaExample {
+
+}

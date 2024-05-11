@@ -1,0 +1,16 @@
+package com.stream.api;
+
+class Product{
+	private int id;
+	private String name;
+	private String desc;
+	
+}
+
+
+public class StreamFilterExample {
+	public static void main(String[] args) {
+		
+	}
+
+}

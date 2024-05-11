@@ -1,0 +1,13 @@
+package com.functionalInterface;
+
+import java.util.function.BiFunction;
+
+public class BiFunctionDemo {
+	public static void main(String[] args) {
+		BiFunction<Integer,Integer,Integer> add=(t,u)->(t+u);
+		BiFunction<Integer,Integer,Integer> sub=(t,u)->(t-u);
+		BiFunction<Integer,Integer,Integer> mul=(t,u)->(t*u);
+		BiFunction<Integer,Integer,Integer> div=(t,u)->(t/u);
+	}
+
+}

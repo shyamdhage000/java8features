@@ -1,0 +1,8 @@
+package com.lambda;
+
+public interface MyFunctionalInterface {
+	void print(String str);
+	
+	void display();
+
+}

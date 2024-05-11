@@ -1,0 +1,9 @@
+package com.stream.api;
+
+public class CreateStream {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

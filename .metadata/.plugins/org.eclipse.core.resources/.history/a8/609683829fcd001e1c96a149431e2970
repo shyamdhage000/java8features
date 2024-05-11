@@ -1,0 +1,47 @@
+package com.defaultStatic;
+
+interface Vehicle{
+	String getBrand();
+	String speedUp();
+	
+	String slowDown();
+	
+	default String turnAlramOn() {
+		return "Truning vehicle on";
+	}
+	
+	default String turnAlramOff() {
+		return "Truning vehicle OFF";
+	}
+}
+
+class Car implements Vehicle{
+
+	@Override
+	public String getBrand() {
+		
+		return null;
+	}
+
+	@Override
+	public String speedUp() {
+		
+		return null;
+	}
+
+	@Override
+	public String slowDown() {
+		
+		return null;
+	}
+	
+}
+
+public class DefaultDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.defaultStatic;
+
+interface Vehicle{
+	String getBrand();
+	String speedUp();
+	
+	String slowDown();
+	
+	default String turnAlramOn() {
+		
+	}
+}
+
+public class DefaultDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

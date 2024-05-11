@@ -1,0 +1,13 @@
+package com.method.reference;
+
+import java.util.function.Function;
+
+public class MethodReference {
+
+	public static void main(String[] args) {
+		Function<Integer, Integer>fun=(input)->Math.sqrt(input);
+		System.out.println(fun.apply(16));
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.functionalInterface;
+
+import java.util.function.BiFunction;
+
+public class BiFunctionDemo {
+	public static void main(String[] args) {
+		BiFunction<Integer,Integer,Integer> add=(t,u)->(t+u);
+		
+	}
+
+}

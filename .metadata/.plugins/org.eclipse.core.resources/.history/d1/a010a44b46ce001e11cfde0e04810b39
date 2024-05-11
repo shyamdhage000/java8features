@@ -1,0 +1,7 @@
+package com.functionalInterface;
+
+public class BiPredicateDemo {
+	public static void main(String[] args) {
+		
+	}
+}

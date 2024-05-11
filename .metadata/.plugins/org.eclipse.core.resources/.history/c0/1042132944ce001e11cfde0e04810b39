@@ -1,0 +1,8 @@
+package com.functionalInterface;
+
+public class BiFunctionDemo {
+	public static void main(String[] args) {
+		
+	}
+
+}
